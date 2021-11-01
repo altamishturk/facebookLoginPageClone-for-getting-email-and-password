@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .wrap {
+        width: 90%;
+        border: 1px solid black;
+        margin: 50px auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) 200px;
+        grid-template-rows: 60px 100px 200px 60px;
+        grid-gap: 20px;
+    }
+    .text {
+    }
+
+    #content1 {
+        background: blue;
+        grid-column: 1/-1;
+    }
+    #content2 {
+        background: rgb(255, 145, 0);
+        
+    }
+    #content3 {
+        background: rgb(255, 0, 149);
+        
+    }
+    #content4 {
+        background: rgb(0, 255, 64);
+        
+    }
+    #content5 {
+        background: rgb(217, 255, 0);
+        grid-row: 2/4;
+        grid-column: 4/5;
+    }
+    #content6 {
+        background: rgb(28, 183, 230);
+        grid-column: 1/4;
+        
+    }
+    #content7 {
+        background: rgb(28, 230, 146);
+        grid-column: 1/5;
+        grid-row: 4/5;
+    }
+</style>
+<body>
+    <div class="wrap">
+        <div id="content1" class="text">some 1content</div>
+        <div id="content2" class="text">some 2content</div>
+        <div id="content3" class="text">some 3content</div>
+        <div id="content4" class="text">some 4content</div>
+        <div id="content5" class="text">some 5content</div>
+        <div id="content6" class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, nisi at? Laudantium ullam asperiores, maiores dolores quisquam adipisci hic alias consequuntur ratione ducimus reprehenderit sunt quam maxime laboriosam, quos soluta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ratione facilis vitae debitis ipsam laborum animi, omnis sequi cumque ea, asperiores pariatur! Tenetur, sit. Facere quo nihil dolor dignissimos magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae inventore numquam consectetur voluptate delectus culpa aperiam eligendi praesentium accusamus, porro deserunt corrupti illo nam sit expedita dolores quam magni ea? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aliquam dolorem minima asperiores adipisci perferendis unde expedita rerum alias! Consequuntur veniam officia molestiae numquam repudiandae sunt ea optio nam at? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident explicabo tenetur, harum laudantium placeat cum molestiae numquam quos! Iste itaque non doloremque fugiat amet officiis quaerat provident nobis dignissimos sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi veniam hic quae porro mollitia a iste expedita tempora odio deleniti, ab saepe corrupti incidunt qui ducimus ullam! Beatae, eveniet assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste corporis at similique ullam exercitationem itaque harum praesentium unde mollitia esse voluptate dolor recusandae incidunt quam eveniet magnam, quos doloribus quod? some 6content</div>
+        <div id="content7" class="text">some 7content</div>
+</body>    
